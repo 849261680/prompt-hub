@@ -1,19 +1,5 @@
 本指南为 Claude 4 模型（Opus 4.1、Opus 4 和 Sonnet 4）提供具体的提示工程技术，帮助您在应用中取得最佳效果。这些模型经过训练，能够比 Claude 模型的以往版本更精确地遵循指令。
 
-## 
-
-[​
-
-](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/claude-4-best-practices#general-principles)
-
-一般原则
-
-### 
-
-[​
-
-](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/claude-4-best-practices#be-explicit-with-your-instructions)
-
 明确你的指令
 
 Claude 4 模型对清晰、明确的指令反应良好。具体说明你期望的输出结果可以帮助提升效果。那些希望获得之前 Claude 模型“超越预期”行为的客户可能需要更明确地请求这些行为配合 Claude 4。
@@ -36,11 +22,6 @@ Create an analytics dashboard
 Create an analytics dashboard. Include as many relevant features and interactions as possible. Go beyond the basics to create a fully-featured implementation.
 ```
 
-### 
-
-[​
-
-](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/claude-4-best-practices#add-context-to-improve-performance)
 
 添加上下文以提升性能
 
@@ -66,21 +47,12 @@ Your response will be read aloud by a text-to-speech engine, so never use ellips
 
 Claude 足够智能，能够从解释中泛化。
 
-### 
 
-[​
-
-](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/claude-4-best-practices#be-vigilant-with-examples-%26-details)
 
 对示例和细节保持警惕
 
 Claude 4 模型在遵循指令时会关注细节和示例。确保你的示例与你想鼓励的行为一致，并尽量减少你想避免的行为。
 
-## 
-
-[​
-
-](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/claude-4-best-practices#guidance-for-specific-situations)
 
 针对特定情况的指导
 
